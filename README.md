@@ -2,20 +2,20 @@ This is the final Project For NYU course Web Search Engine
 -------------------------------------------
 By :  Fei Guan, Jingxin Zhu, Wuping Lei
 
-# 1. Features: 
-# 1.1knowledge bar
+#Features: 
+1.1knowledge bar
 ![demo1](/img/demo1.gif?raw=true "demo1")
 
-# 1.2 spelling checking based on Pseudo-Relevance-Feedback (PRF)
+1.2 spelling checking based on Pseudo-Relevance-Feedback (PRF)
 ![demo2](/img/demo2.gif?raw=true "demo2")
 	web seach -> web search, instead of -> web reach, after adding (PRF) 
-# 1.3 snippet and local cache
+1.3 snippet and local cache
 ![snippet](/img/snippet.png?raw=true "demo3")
 
-# 2. Framework design:
+#Framework design:
 ![design](/img/design.png?raw=true "demo4")
 
-#3. Usage
+#Usage
 Part 1: Compile and run:
 Change in the parent directory of src first and then, 
 3.1 To compile,
@@ -50,13 +50,13 @@ Once all library has been installed, go to frontend directory and run:
   $ node app.js
 Then go to browser enter localhost:3000.
 
-#For Your Infomation:
+For Your Infomation:
 The project contains some file with utf-8 encoding character, you may need to add -encoding utf8 to compile.
 Different system may require different delimiter between classpath you may need to change from ":" to ";"
 The word being searched is stemmed, and stopwords will be filtered, if you want word to as it is, double
 quote that single word.
      
-#Intro：
+Intro：
 On one hand, when searching a question in computer programming, people are usually expecting to see
 a highly recommended answer and save the time clicking each results search engine returns. 
 On the other hand, platforms such as Stack Overflow have accumulated a huge amount of valuable answers
