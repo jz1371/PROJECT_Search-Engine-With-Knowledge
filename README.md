@@ -3,14 +3,20 @@ This is the final Project For NYU course Web Search Engine
 By :  Fei Guan, Jingxin Zhu, Wuping Lei
 
 #Features: 
-1.1knowledge bar
+1.1 knowledge bar
 ![demo1](/img/demo1.gif?raw=true "demo1")
+
+
 
 1.2 spelling checking based on Pseudo-Relevance-Feedback (PRF)
 ![demo2](/img/demo2.gif?raw=true "demo2")
-	web seach -> web search, instead of -> web reach, after adding (PRF) 
+
+web seach -> web search, instead of -> web reach, after adding (PRF) 
+
+
 1.3 snippet and local cache
 ![snippet](/img/snippet.png?raw=true "demo3")
+
 
 #Framework design:
 ![design](/img/design.png?raw=true "demo4")
