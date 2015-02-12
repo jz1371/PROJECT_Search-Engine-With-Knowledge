@@ -1,30 +1,41 @@
 This is the final Project For NYU course Web Search Engine
 -------------------------------------------
-By : Group 01 
-     Fei Guan, Jingxin Zhu, Wuping Lei
-     
+By :  Fei Guan, Jingxin Zhu, Wuping Lei
+
+1. Features: 
+1.1 knowledge bar
 ![demo1](/img/demo1.gif?raw=true "demo1")
 
+1.2 spelling checking based on Pseudo-Relevance-Feedback (PRF)
+![demo2](/img/demo2.gif?raw=true "demo2")
+	web seach -> web search, instead of -> web reach, after adding (PRF) 
+1.3 snippet and local cache
+![snippet](/img/snippet.png?raw=true "demo3")
+
+2. Framework design:
+![design](/img/design.png?raw=true "demo4")
+
+3. Usage
 # Part 1: Compile and run:
 
 Change in the parent directory of src first and then, 
-1.1 To compile,
+3.1 To compile,
 
   $ javac [-encoding utf8] -cp jsoup.jar src/edu/nyu/cs/cs2580/*.java
   
-1.2.1 Run mining mode :
+3.2.1 Run mining mode :
 
   $ java -cp jsoup.jar:src edu/nyu/cs/cs2580/SearchEngine --mode=mining --options=conf/engine.conf
 
-1.2.2 Run index mode:
+3.2.2 Run index mode:
 
   $ java -cp jsoup.jar:src edu/nyu/cs/cs2580/SearchEngine --mode=index --options=conf/engine.conf
   
-1.2.3 Run server mode:
+3.2.3 Run server mode:
 
   $ java -cp jsoup.jar:src edu/nyu/cs/cs2580/SearchEngine --mode=serve --port=25801 --options=conf/engine.conf
   
-1.2.4 Run front-end server:
+3.2.4 Run front-end server:
 
   install node.js first
 
@@ -54,4 +65,3 @@ on a wide range of topics in computer programming[1]. So, our team will try to l
 to provide a knowledge bar for programming questions.
 In this project, our team also takes efforts to check users’ spelling mistake and 
 provide suggestion query for possible mistake in the light of Pseduo-Relevance-Feedback.
-
